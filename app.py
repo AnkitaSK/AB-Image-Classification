@@ -10,11 +10,7 @@ from keras.applications.vgg16 import preprocess_input
 
 app = Flask(__name__)
 
-# load model #
-# model = tf.keras.models.load_model("best_model_transfer_learning.keras")
-# model = joblib.load('AB-CIFAR10_model.pkl')
-# https://www.dropbox.com/scl/fi/jnfeyvfvyr33ffnqt7b62/AB-CIFAR10_model.pkl?rlkey=fsk52x0ik62kn0w9v10esq9tz&st=xjttvp92&dl=1
-
+# load model 
 # Dropbox shared link (with dl=1 to force download)
 dropbox_url = "https://www.dropbox.com/scl/fi/jnfeyvfvyr33ffnqt7b62/AB-CIFAR10_model.pkl?rlkey=fsk52x0ik62kn0w9v10esq9tz&st=xjttvp92&dl=1"
 # Local file path where you want to save the downloaded .pkl file
